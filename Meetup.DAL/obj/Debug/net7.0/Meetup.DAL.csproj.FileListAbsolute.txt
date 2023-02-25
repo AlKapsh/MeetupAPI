@@ -1,0 +1,5 @@
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.DAL\obj\Debug\net7.0\Meetup.DAL.csproj.AssemblyReference.cache
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.DAL\obj\Debug\net7.0\Meetup.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.DAL\obj\Debug\net7.0\Meetup.DAL.AssemblyInfoInputs.cache
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.DAL\obj\Debug\net7.0\Meetup.DAL.AssemblyInfo.cs
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.DAL\obj\Debug\net7.0\Meetup.DAL.csproj.CoreCompileInputs.cache
