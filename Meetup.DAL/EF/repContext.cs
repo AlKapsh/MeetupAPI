@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 
 namespace Meetup.DAL.EF {
-    internal class repContext: DbContext {
+    public class repContext: DbContext {
         string? connectionStr;
         public repContext(DbContextOptions<repContext> options) : base(options) {
 

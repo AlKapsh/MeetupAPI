@@ -6,16 +6,16 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Meetup.DAL.Contracts {
-    internal interface IEventRepository {
+    public interface IMeetEventRepository {
         MeetEvent GetById(int id, bool trackChanges);
 
         IQueryable<MeetEvent> GetAllEvents(bool trackChanges);
 
-        void CreateEvent();
+        void CreateEvent(MeetEvent meet);
 
-        void UpdateEvent();
+        void UpdateEvent(MeetEvent meet);
 
-        void DeleteEvent();
+        void DeleteEvent(MeetEvent meet);
 
     }
 }

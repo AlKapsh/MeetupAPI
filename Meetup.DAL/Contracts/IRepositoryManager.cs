@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Meetup.DAL.Contracts {
-    internal interface IRepositoryManager {
+    public interface IRepositoryManager {
+
+        IMeetEventRepository MeetEvent { get; }
+        Task SaveAsynk();
     }
 }

@@ -6,8 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Meetup.DAL.Contracts {
-    internal interface IRepositoryBase<T> {
-        IQueryable<T> Find(bool trackChanges);
+    public interface IRepositoryBase<T> {
+        IQueryable<T> FindAll(bool trackChanges);
         IQueryable<T> FindByCondition(Expression<Func<T , bool>> expression, bool trackChanges);
         void Create(T item);
         void Update(T item);

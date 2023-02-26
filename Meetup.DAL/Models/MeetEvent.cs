@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Meetup.DAL.Models {
-    internal class Event {
+    public class MeetEvent {
         public int Id { get; set; }
         public string Title { get; set; } = null!;
         public string? Description { get; set; }

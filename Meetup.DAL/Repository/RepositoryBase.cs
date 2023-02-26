@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
 namespace Meetup.DAL.Repository {
-    internal class RepositoryBase<T> : IRepositoryBase<T> where T : class {
+    public class RepositoryBase<T> : IRepositoryBase<T> where T : class {
         protected repContext dbContext;
 
         public RepositoryBase(repContext context) {

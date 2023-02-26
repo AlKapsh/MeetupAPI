@@ -1,0 +1,16 @@
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.BLL\bin\Debug\net7.0\config.json
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.BLL\bin\Debug\net7.0\Meetup.BLL.deps.json
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.BLL\bin\Debug\net7.0\Meetup.BLL.dll
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.BLL\bin\Debug\net7.0\Meetup.BLL.pdb
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.BLL\bin\Debug\net7.0\Meetup.DAL.dll
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.BLL\bin\Debug\net7.0\Meetup.DAL.pdb
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.BLL\obj\Debug\net7.0\Meetup.BLL.csproj.AssemblyReference.cache
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.BLL\obj\Debug\net7.0\Meetup.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.BLL\obj\Debug\net7.0\Meetup.BLL.AssemblyInfoInputs.cache
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.BLL\obj\Debug\net7.0\Meetup.BLL.AssemblyInfo.cs
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.BLL\obj\Debug\net7.0\Meetup.BLL.csproj.CoreCompileInputs.cache
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.BLL\obj\Debug\net7.0\Meetup.BLL.csproj.CopyComplete
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.BLL\obj\Debug\net7.0\Meetup.BLL.dll
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.BLL\obj\Debug\net7.0\refint\Meetup.BLL.dll
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.BLL\obj\Debug\net7.0\Meetup.BLL.pdb
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.BLL\obj\Debug\net7.0\ref\Meetup.BLL.dll
