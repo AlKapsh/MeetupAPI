@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Meetup.DAL.Models {
     internal class Event {
+        public int Id { get; set; }
         public string Title { get; set; } = null!;
         public string? Description { get; set; }
         public string Manager { get; set; } = null!;

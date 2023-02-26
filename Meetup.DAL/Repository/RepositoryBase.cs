@@ -1,43 +1,32 @@
 ﻿using Meetup.DAL.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Meetup.DAL.EF;
+using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace Meetup.DAL.Repository {
     internal class RepositoryBase<T> : IRepositoryBase<T> where T : class {
-        protected AppContext dbContext;
+        protected repContext dbContext;
 
-        public RepositoryBase(AppContext dbContext) {
-            this.dbContext = dbContext;
+        public RepositoryBase(repContext context) {
+            this.dbContext = context;
         }
 
-        public RepositoryBase() {
+        public void Create(T item) => dbContext.Set<T>().Add(item);
 
-        }
-        public T Create(T item) {
-            throw new NotImplementedException();
-        }
+        public void Delete(T item) => dbContext.Set<T>().Remove(item);
 
-        public T Delete(T item) {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<T> Find(Func<T, bool> predicate) {
-            throw new NotImplementedException();
-        }
-
-        public T Get(int id) {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<T> GetAll() {
-            throw new NotImplementedException();
-        }
-
-        public T Update(T item) {
-            throw new NotImplementedException();
-        }
+        public void Update(T item) => dbContext.Set<T>().Update(item);
+        public IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges) =>
+            !trackChanges ?
+            dbContext.Set<T>()
+            .Where(expression)
+            .AsNoTracking() :
+            dbContext.Set<T>()
+            .Where(expression);
+        public IQueryable<T> FindAll(bool trackChanges) => 
+            !trackChanges ?
+            dbContext.Set<T>()
+            .AsNoTracking() :
+            dbContext.Set<T>();
     }
 }
