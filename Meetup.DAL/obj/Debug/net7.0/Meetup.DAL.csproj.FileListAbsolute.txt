@@ -11,3 +11,5 @@ C:\Pming\Projects\Repos\MeetupAPI\Meetup.DAL\obj\Debug\net7.0\Meetup.DAL.dll
 C:\Pming\Projects\Repos\MeetupAPI\Meetup.DAL\obj\Debug\net7.0\refint\Meetup.DAL.dll
 C:\Pming\Projects\Repos\MeetupAPI\Meetup.DAL\obj\Debug\net7.0\Meetup.DAL.pdb
 C:\Pming\Projects\Repos\MeetupAPI\Meetup.DAL\obj\Debug\net7.0\ref\Meetup.DAL.dll
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.DAL\bin\Debug\net7.0\Meetup.DAL.runtimeconfig.json
+C:\Pming\Projects\Repos\MeetupAPI\Meetup.DAL\obj\Debug\net7.0\Meetup.DAL.genruntimeconfig.cache

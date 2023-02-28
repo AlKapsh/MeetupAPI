@@ -23,6 +23,8 @@ namespace Meetup.DAL.Repository {
             .AsNoTracking() :
             dbContext.Set<T>()
             .Where(expression);
+
+
         public IQueryable<T> FindAll(bool trackChanges) => 
             !trackChanges ?
             dbContext.Set<T>()

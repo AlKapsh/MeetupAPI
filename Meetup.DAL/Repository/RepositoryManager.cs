@@ -1,5 +1,6 @@
 ﻿using Meetup.DAL.Contracts;
 using Meetup.DAL.EF;
+using Meetup.DAL.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +23,6 @@ namespace Meetup.DAL.Repository {
                 return _eventRepository; 
             }
         }
-
         public async Task SaveAsynk() => await _context.SaveChangesAsync();
     }
 }

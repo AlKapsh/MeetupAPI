@@ -13,8 +13,6 @@ namespace Meetup.DAL.Contracts {
 
         void CreateEvent(MeetEvent meet);
 
-        void UpdateEvent(MeetEvent meet);
-
         void DeleteEvent(MeetEvent meet);
 
     }
